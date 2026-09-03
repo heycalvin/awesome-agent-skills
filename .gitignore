@@ -1,0 +1,21 @@
+# OS & System
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors & IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment & Secrets
+.env
+.env.local
+*.local
+
+# Temporary files & logs
+*.log
+tmp/
+temp/
+scratch/
