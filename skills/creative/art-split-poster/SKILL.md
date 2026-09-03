@@ -18,9 +18,9 @@ Create one independent poster per uploaded photo. Never combine multiple source 
    - bottom 50%: warm off-white rough paper, visible grain/brush marks, abundant negative space, and a small centered illustration occupying about 10–20% of the lower panel;
    - illustration: recognizable subject/gesture/object reduced to delicate imperfect ink lines plus no more than four restrained flat acrylic-like colors sampled from the photo;
    - no collage, extra people, logos, watermarks, commercial cartoon styling, 3D, glossy digital finish, crayon, colored pencil, or watercolor bleed.
-4. Add typography only when requested or when it improves the cover. Keep it sparse, centered or aligned to negative space, and state every character verbatim. For Chinese, prefer short copy such as `小小乘客` and `家的日常 · 2026`; require exact, legible glyphs and no other text.
+4. Add typography only when requested or when it improves the cover. Keep it sparse, centered or aligned to negative space, and state every character verbatim. Prefer concise copy such as "LITTLE PASSENGER" and "DAILY LIFE · 2026"; require exact, legible glyphs and no other text.
 5. Inspect every result. Validate subject fidelity, exact 3:4 ratio, midpoint split, small illustration scale, ≤4-color palette, paper texture, and text spelling. If one constraint fails, make one targeted follow-up edit rather than broad restyling.
-6. Save each final image under the workspace `outputs/` folder with a stable per-photo filename; preserve earlier versions with a suffix such as `-captioned` or `-cn`.
+6. Save each final image under the workspace `outputs/` folder with a stable per-photo filename; preserve earlier versions with a suffix such as `-captioned` or `-v2`.
 
 ## Prompt skeleton
 
@@ -30,7 +30,7 @@ Input image: Image 1 is the sole edit target.
 Create one strict 3:4 vertical poster with an exact 50/50 horizontal split.
 Top half: preserve [recognizable subject, identity, pose, objects, setting] as authentic photography; only subtle editorial grading; never reshape the subject.
 Bottom half: warm off-white handmade paper; tiny centered [subject/object] illustration; delicate imperfect ink lines; ≤4 sampled flat colors; large negative space.
-Typography (verbatim): “[Chinese title]”; “[small subtitle]”. Keep it understated and legible.
+Typography (verbatim): “[title]”; “[small subtitle]”. Keep it understated and legible.
 Avoid: collage, extra subjects, busy decoration, 3D, glossy digital art, crayon, colored pencil, watercolor bleed, commercial cartoon, watermark.
 ```
 
@@ -39,5 +39,5 @@ Avoid: collage, extra subjects, busy decoration, 3D, glossy digital art, crayon,
 - Split is not equal: explicitly repeat “the boundary is exactly at 50% of total pixel height.”
 - Illustration is too large: cap its complete footprint at 10–20% of the lower panel and demand at least 70% blank paper around it.
 - Faces or bodies drift: repeat identity/pose invariants and use the original photo as the edit target.
-- Chinese glyphs are wrong: run a typography-only targeted edit with exact quoted text; do not regenerate the scene.
+- Typography glyphs are wrong: run a typography-only targeted edit with exact quoted text; do not regenerate the scene.
 - Aspect ratio drifts: crop/rescale non-destructively to an exact 3:4 raster after visual inspection.

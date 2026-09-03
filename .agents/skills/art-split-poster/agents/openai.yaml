@@ -1,4 +1,0 @@
-interface:
-  display_name: "Art Split Poster"
-  short_description: "Create split photo-and-paper editorial posters"
-  default_prompt: "Use this skill to create one strict 3:4 editorial poster per uploaded photo with a faithful photo top, tiny handmade paper illustration bottom, and restrained Chinese typography."
