@@ -12,8 +12,8 @@
 
 ```yaml
 ---
-name: code-reviewer
-description: 审查拉取请求或特定代码文件的架构质量、潜在Bug与安全漏洞
+name: art-split-poster
+description: 照片转 3:4 高端编辑海报，上方严格写实保真，下方质感纸张微型手绘与克制排版
 ---
 ```
 
@@ -21,17 +21,16 @@ description: 审查拉取请求或特定代码文件的架构质量、潜在Bug�
 
 ## 2. 目录架构
 
-- [`coding/`](./coding/)：代码审查、重构建议、单元测试编写、架构分析。
-- [`research/`](./research/)：竞品分析、技术选型推演、学术论文与前沿论文总结。
-- [`creative/`](./creative/)：分镜脚本推演、品牌文案调性统一、创意发散。
-- [`productivity/`](./productivity/)：会议纪要提炼、工作周报结构化生成、项目看板管理。
+- [`creative/`](./creative/)：图像与视觉生成、创意发散（已收录：[`art-split-poster`](./creative/art-split-poster/)）。
+- [`coding/`](./coding/)：代码审查、重构建议、单元测试编写、架构分析等【待补充】。
+- [`research/`](./research/)：竞品分析、技术选型推演、学术论文与前沿论文总结等【待补充】。
+- [`productivity/`](./productivity/)：会议纪要提炼、工作周报结构化生成、项目看板管理等【待补充】。
 
 ---
 
-## 3. 在不同平台中加载与使用
+## 3. 如何安装与激活技能
 
-### 在 Antigravity 中加载
-将对应的 Skill 目录软链接或复制到全局技能目录（`~/.gemini/antigravity/skills/`）或当前项目的 `.agent/skills/` 中，系统会自动感知并按需激活。
+直接在对话框中向你的 AI Agent 发送指令即可：
+> 💬 **“请帮我安装 `skills/creative/art-split-poster` 技能”**
 
-### 在 Claude Projects / Custom GPTs 中使用
-直接将 `SKILL.md` 的内容拷贝为 Project Knowledge 或 Custom GPT Instruction 中的对应模块，实现即挂即用。
+智能体会自动识别宿主环境并挂载到正确目录（如当前工程的 `.agents/skills/` 或全局技能目录）。
