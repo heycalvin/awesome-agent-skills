@@ -29,8 +29,8 @@
 
 | 技能名称 | 核心作用说明 | 详细效果与用法 | 来源出处 |
 | :--- | :--- | :---: | :---: |
-| **`art-split-poster`** | 📸 照片转 3:4 竖版五五分艺术海报（上方摄影写实、下方宣纸肌理微插画与留白排版） | [🖼️ 查看详情与效果 ➔](./docs/art-split-poster.md) | 社区收录 |
-| **`art-mono-color`** | 🖨️ 单色/双色孔版印刷与网点编辑海报（Risograph、大留白、当代排版） | [🖼️ 查看详情与效果 ➔](./docs/art-mono-color.md) | [yanliudesign](https://github.com/yanliudesign/mono-color-skill) |
+| **`art-split-poster`** | 📸 照片转 3:4 竖版五五分艺术海报（上方摄影写实、下方宣纸肌理微插画与留白排版） | [🖼️ 查看详情与效果 ➔](./docs/art-split-poster.md) | [@king1818888](https://x.com/king1818888) |
+| **`art-mono-color`** | 🖨️ 单色/双色孔版印刷与网点编辑海报（Risograph、大留白、当代排版） | [🖼️ 查看详情与效果 ➔](./docs/art-mono-color.md) | [@yanliudesign](https://github.com/yanliudesign/mono-color-skill) |
 
 ---
 
@@ -38,7 +38,7 @@
 
 | 技能名称 | 核心作用说明 | 详细效果与用法 | 来源出处 |
 | :--- | :--- | :---: | :---: |
-| **`dev-architecture-first`** | 🧱 改代码前确认真实目标、责任层、唯一事实源与根因，杜绝盲目打补丁 | [📖 查看详情与用法 ➔](./docs/dev-architecture-first.md) | [doublesq97-ui](https://github.com/doublesq97-ui/su-architecture-first) |
+| **`dev-architecture-first`** | 🧱 改代码前确认真实目标、责任层、唯一事实源与根因，杜绝盲目打补丁 | [📖 查看详情与用法 ➔](./docs/dev-architecture-first.md) | [@doublesq97-ui](https://github.com/doublesq97-ui/su-architecture-first) |
 
 ---
 
